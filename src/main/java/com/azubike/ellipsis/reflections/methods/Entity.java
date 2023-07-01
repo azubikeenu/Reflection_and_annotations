@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.methods;
+package com.azubike.ellipsis.reflections.methods;
 
 public class Entity {
     private int val;

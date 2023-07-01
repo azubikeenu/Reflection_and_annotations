@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.methods;
+package com.azubike.ellipsis.reflections.methods;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

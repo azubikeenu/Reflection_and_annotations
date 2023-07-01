@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.annotations.custom;
+package com.azubike.ellipsis.annotations.java_8_enhancements;
 
 public class Box< @NonEmpty T> {
     @NonEmpty int size;

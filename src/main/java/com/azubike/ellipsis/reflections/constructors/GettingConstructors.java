@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.constructors;
+package com.azubike.ellipsis.reflections.constructors;
 
 import java.lang.reflect.Constructor;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 public class GettingConstructors {
     public static void main(String[] args) throws Exception {
-        final Class<?> aClass = Class.forName("com.azubike.ellipsis.constructors.Entity");
+        final Class<?> aClass = Class.forName("com.azubike.ellipsis.reflections.constructors.Entity");
         final Constructor<?>[] constructors = aClass.getConstructors();
         // This returns only the public constructors
         Arrays.stream(constructors).forEach(System.out::println);

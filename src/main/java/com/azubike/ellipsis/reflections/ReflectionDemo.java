@@ -1,4 +1,4 @@
-package com.azubike.ellipsis;
+package com.azubike.ellipsis.reflections;
 
 
 import java.lang.reflect.Constructor;
@@ -16,7 +16,7 @@ class MyClass {
 
 public class ReflectionDemo {
     public static void main(String[] args) throws Exception {
-        Class<?> myClass = Class.forName("com.azubike.ellipsis.MyClass");
+        Class<?> myClass = Class.forName("com.azubike.ellipsis.reflections.MyClass");
         Constructor<?> classConstructor = myClass.getDeclaredConstructor();
         classConstructor.setAccessible(true);
         final MyClass newInstance = (MyClass) classConstructor.newInstance();

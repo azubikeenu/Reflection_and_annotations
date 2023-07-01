@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.modifiers;
+package com.azubike.ellipsis.reflections.modifiers;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

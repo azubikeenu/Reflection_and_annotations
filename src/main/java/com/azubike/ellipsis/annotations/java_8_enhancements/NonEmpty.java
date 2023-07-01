@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.annotations.custom;
+package com.azubike.ellipsis.annotations.java_8_enhancements;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

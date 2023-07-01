@@ -1,4 +1,4 @@
-package com.azubike.ellipsis;
+package com.azubike.ellipsis.reflections;
 
 public class GettingClassObject {
     public static void main(String[] args) throws ClassNotFoundException {

@@ -1,2 +1,11 @@
-package com.azubike.ellipsis.hibernate_example.annotaions;public @interface Column {
+package com.azubike.ellipsis.hibernate_example.annotaions;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.FIELD})
+public @interface Column {
 }

@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.fields;
+package com.azubike.ellipsis.reflections.fields;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;

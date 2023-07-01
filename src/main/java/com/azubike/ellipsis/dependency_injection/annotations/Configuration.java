@@ -1,4 +1,4 @@
-package com.azubike.ellipsis.dependency_injection;
+package com.azubike.ellipsis.dependency_injection.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

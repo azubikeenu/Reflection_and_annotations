@@ -1,2 +1,6 @@
-package com.azubike.ellipsis.annotations.java_8_enhancements;public class Employee {
+package com.azubike.ellipsis.annotations.java_8_enhancements;
+
+@Designation("Developer")
+@Designation("Manager")
+public class Employee {
 }

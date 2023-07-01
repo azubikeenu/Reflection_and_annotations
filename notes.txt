@@ -1,0 +1,53 @@
+ ========================================================
+          REFLECTION
+ ======================================================
+ Reflection enables us to access the capabilities of a class @ runtime . It allows
+ us to modify the properties of a class @ runtime by making use of introspection
+ Reflection works which meta-data[which is a short description of another data],
+
+CLASS LOADERS
+Anytime a new class gets loaded my JVM , a Class <?> object for that class gets generated
+
+
+
+===================================================
+            ANNOTATIONS
+===================================================
+
+Annotations defines meta-data for classes ,methods , fields , and parameters , they can also
+dictate how our application behaves @ compile time
+
+TYPES OF ANNOTATIONS
+
+1) Marker : These contain no body and primary function as markers to communicate info  @Override
+2) Single Value Annotations : These contain a single member ex @SuppressWarnings("Unchecked")
+3) Multi value Annotations
+
+
+GENERAL PURPOSE ANNOTATIONS
+Standard Annotations : These are annotations that are commonly used by us and provided by the java.lang package eg @Override @SuppressWarnings @Deprecated  etc
+Meta Annotations : These are used to pass information to custom annotations
+ they are provided in the java.lang.annotations eg @Documented @Target @Inherited @Target @Retention
+
+@Documented :this causes the annotation to be included in the generated java doc files   $ javadoc  $FILE_PATH
+
+@Inherited :This causes the annotation to be applied to sub classes
+
+@Target : This specifies the target entity to which the annotation can be used  examples include
+
+@Target({ElementType.METHOD , ElementType.TYPE})
+
+
+@Retention : It takes in a RetentionPolicy [SOURCE, CLASS ,RUNTIME] ,it specifies the life span of an annotation :
+RetentionPolicy.SOURCE : this means that after the compilation time , it gets discarded
+RetentionPolicy.CLASS : This spans after the compilation time but isnt retained by the JVM at runtime .ie it is retained
+until the .class file generation
+RetentionPolicy.RUNTIME : These are retained by JVM ie up to runtime
+
+
+==========================================================
+                JAVA8 ENHANCEMENTS
+==========================================================
+
+Type Annotations :  ELEMENT_TYPE.TYPE_USE , TYPE_PARAMETER[generic type parameters] , MODULE
+this allows annotation to be used in types , tye casting , instantiation , method declaration etc
